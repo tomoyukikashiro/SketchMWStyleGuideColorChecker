@@ -1,0 +1,39 @@
+{
+    "name" : "Sketch MW Style Guide Color Checker",
+    "identifier" : "me.tomoyukikashiro.sketch_mw_style_guide_color_checker",
+    "version" : "1.0.0",
+    "description" : "show colors which are not in MW style guide color palette.",
+    "authorEmail" : "ksrtmyk@gmail.com",
+    "author" : "Tomoyuki Kashiro",
+    "commands" : [
+    {
+      "script" : "main.js",
+      "handler" : "findByAll",
+      "shortcut" : "",
+      "name" : "Check all color",
+      "identifier" : "findByAll"
+    },
+    {
+      "script" : "main.js",
+      "handler" : "findByFontColor",
+      "shortcut" : "",
+      "name" : "Check font color",
+      "identifier" : "findByFontColor"
+    },
+    {
+      "script" : "main.js",
+      "handler" : "findByShapeColor",
+      "shortcut" : "",
+      "name" : "Check shape color",
+      "identifier" : "findByShapeColor"
+    }
+  ],
+  "menu": {
+    "title": "Style Guide Color Checker",
+    "items": [
+      "findByAll",
+      "findByFontColor",
+      "findByShapeColor"
+    ]
+  }
+}

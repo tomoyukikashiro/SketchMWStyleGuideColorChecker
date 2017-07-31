@@ -1,7 +1,7 @@
 {
     "name" : "Sketch MW Style Guide Color Checker",
     "identifier" : "me.tomoyukikashiro.sketch_mw_style_guide_color_checker",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "description" : "show colors which are not in MW style guide color palette.",
     "authorEmail" : "ksrtmyk@gmail.com",
     "author" : "Tomoyuki Kashiro",

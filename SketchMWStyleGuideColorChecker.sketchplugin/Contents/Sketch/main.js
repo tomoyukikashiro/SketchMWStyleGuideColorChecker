@@ -57,7 +57,7 @@ function getEnabledFillColor(layer) {
 }
 
 function convertColor2Text(color) {
-  // To get value as `String` I use toLowerCase instead of `toString`.
+  // To get value as `String` I use toUpperCase instead of `toString`.
   // `toString` does not return string....
   return color.treeAsDictionary().value.toUpperCase();
 }
@@ -122,7 +122,7 @@ function createModalFactory(colors) {
 function getSelectedColor(modal) {
   return modal.views().reduce(function(list, button) {
     if (button.state()) {
-      list.push(button.title().toString().toLowerCase()); 
+      list.push(button.title().toString().toUpperCase()); 
     }
     return list;
   }, []);
